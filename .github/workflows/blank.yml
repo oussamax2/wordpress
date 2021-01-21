@@ -16,4 +16,4 @@ jobs:
         server: ftp-itmaxtn.alwaysdata.net
         username: itmaxtn
         password: pirateX2@
-        local-dir: /www/
+        server-dir: www/
