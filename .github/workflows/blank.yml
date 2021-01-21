@@ -13,6 +13,6 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
-        ftp-server: ftp://ftp-itmaxtn.alwaysdata.net/www
-        ftp-username: itmaxtn
-        ftp-password: pirateX2@
+        server: ftp-itmaxtn.alwaysdata.net/www
+        username: itmaxtn
+        password: pirateX2@
