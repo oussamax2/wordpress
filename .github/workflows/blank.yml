@@ -1,4 +1,6 @@
-on: push
+on: 
+ pull_request:
+    branches: [ master ]    
 name: Publish Website
 jobs:
   FTP-Deploy-Action:
@@ -11,6 +13,6 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
-        ftp-server: ftp://162.241.224.167/public_html/aayquran
-        ftp-username: thrmmemc
-        ftp-password: 3mmem@2020M
+        ftp-server: ftp://ftp-itmaxtn.alwaysdata.net/www
+        ftp-username: itmaxtn
+        ftp-password: pirateX2@
