@@ -7,11 +7,11 @@ jobs:
     name: FTP-Deploy-Action
     runs-on: ubuntu-latest
     steps:
-    - uses: dorner/file-changes-action@v1.2.0
+    - uses: actions/checkout@v2.3.2
       with:
         fetch-depth: 2
     - name: FTP-Deploy-Action
-      uses: SamKirkland/FTP-Deploy-Action@3.1.1
+      uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
         ftp-server: ftp://ftp-itmaxtn.alwaysdata.net/www
         ftp-username: itmaxtn
